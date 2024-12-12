@@ -138,6 +138,13 @@ body {
     color: #ffffff;
 }
 
+.wrapper .twitch:hover,
+.wrapper .twitch:hover .tooltip,
+.wrapper .twitch:hover .tooltip::before {
+    background-color: #9146FF;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 991px) {
     .wrapper .icon {
         position: relative;
@@ -172,6 +179,10 @@ body {
 }
 </style>
     <div class="wrapper">
+        <div class="icon twitch" onclick="window.open('https://twitch.tv/TrapperMx', '_blank')">
+            <div class="tooltip">Twitch</div>
+            <span><i class="fab fa-twitch"></i></span>
+        </div>
         <div class="icon twitter" onclick="window.open('https://x.com/TrapperMx', '_blank')">
             <div class="tooltip">Twitter</div>
             <span><i class="fab fa-twitter"></i></span>
@@ -196,10 +207,10 @@ body {
             <div class="tooltip">Github</div>
             <span><i class="fab fa-github"></i></span>
         </div>
-        <div class="icon whatsapp" .onclick="window.open('https://whatsapp.com', '_blank')">
+        <!-- div class="icon whatsapp" onclick="window.open('https://whatsapp.com', '_blank')">
             <div class="tooltip">WhatsApp</div>
             <span><i class="fab fa-whatsapp"></i></span>
         </div>
-    </div>
+    </div -->
 </body>
 </html>
