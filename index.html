@@ -145,6 +145,13 @@ body {
     color: #ffffff;
 }
 
+.wrapper .steam:hover,
+.wrapper .steam:hover .tooltip,
+.wrapper .steam:hover .tooltip::before {
+    background-color: #1b2838;
+    color: #ffffff;
+}
+
 @media screen and (max-width: 991px) {
     .wrapper .icon {
         position: relative;
@@ -199,18 +206,6 @@ body {
             <div class="tooltip">TikTok</div>
             <span><i class="fab fa-tiktok"></i></span>
         </div>
-        <div class="icon facebook" onclick="window.open('https://facebook.com/TrapperMx', '_blank')">
-            <div class="tooltip">Facebook</div>
-            <span><i class="fab fa-facebook-f"></i></span>
-        </div>
-        <div class="icon github" onclick="window.open('https://github.com/TrapperMx', '_blank')">
-            <div class="tooltip">Github</div>
-            <span><i class="fab fa-github"></i></span>
-        </div>
-        <!-- div class="icon whatsapp" onclick="window.open('https://whatsapp.com', '_blank')">
-            <div class="tooltip">WhatsApp</div>
-            <span><i class="fab fa-whatsapp"></i></span>
-        </div>
-    </div -->
+<script src=script.js></script>
 </body>
 </html>
